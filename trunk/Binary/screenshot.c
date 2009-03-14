@@ -41,7 +41,7 @@ int main(int argc, char **argv)
 	int framebufferHandle = -1;
 
 	int ret = 1;
-	int screenshotHandle = open("/data/data/koushikdutta.screenshot/screenshot.raw", O_WRONLY | O_CREAT);
+	int screenshotHandle = open("/data/data/com.koushikdutta.screenshot/screenshot.raw", O_WRONLY | O_CREAT);
 	if (screenshotHandle < 0)
 	{
 		printf("failed to open screenshot.raw\n");
